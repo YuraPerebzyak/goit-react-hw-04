@@ -1,0 +1,22 @@
+.load_more_btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: block;
+  margin: 20px auto;
+}
+
+.load_more_btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.load_more_btn:active {
+  background-color: #004085;
+  transform: scale(1);
+}
